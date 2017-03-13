@@ -1,0 +1,13 @@
+{
+  "source": {
+    "includePattern": ".+\\.js(doc)?$",
+    "excludePattern": "(^|\\/|\\\\)_",
+    "exclude": [
+        "node_modules"
+    ]
+  },
+
+  "opts": {
+    "destination": "./documentation/"
+  }
+}

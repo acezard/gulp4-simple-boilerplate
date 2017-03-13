@@ -5,15 +5,19 @@
   "description": "standard gulp config",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp",
+    "prod": "gulp --prod",
+    "help": "gulp --tasks"
   },
   "author": "ecedi",
   "license": "ISC",
   "devDependencies": {
     "babel-plugin-transform-class-properties": "^6.23.0",
     "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
     "babel-register": "^6.23.0",
     "babelify": "^7.3.0",
+    "browser-sync": "^2.18.8",
     "browserify": "^14.1.0",
     "eslint-config-standard": "^7.0.0",
     "eslint-plugin-promise": "^3.5.0",
@@ -30,6 +34,7 @@
     "gulp-sourcemaps": "^1.6.0",
     "gulp-stylelint": "^3.9.0",
     "gulp-uglify": "^2.0.1",
+    "gulp-util": "^3.0.8",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "yargs": "^6.6.0"
