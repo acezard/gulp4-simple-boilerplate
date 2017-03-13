@@ -1,6 +1,6 @@
 {
-  "name": "ecedi",
-  "version": "1.0.0",
+  "name": "gulp4-simple-boilerplate",
+  "version": "0.1",
   "private": "true",
   "description": "standard gulp config",
   "main": "gulpfile.js",
